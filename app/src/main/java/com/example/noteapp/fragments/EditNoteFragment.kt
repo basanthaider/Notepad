@@ -55,6 +55,7 @@ class EditNoteFragment : Fragment(R.layout.fragment_edit_note), MenuProvider {
             if (noteTitle.isNotEmpty()) {
                 val note = Note(currentNote.id, noteTitle, noteDesc)
                 notesViewModel.updateNOte(note)
+                Toast.makeText(activity, "Your note updated successfully!", Toast.LENGTH_SHORT).show()
                 view.findNavController().popBackStack(R.id.homeFragment, false)
 
             } else {
