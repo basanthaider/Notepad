@@ -2,9 +2,9 @@
 Nota app build by kotlin and android SDK for android applications 
 
 # This app demonstrates fundamental Android development concepts including:
-- using list item
-- recycler viwes
-- adapter
+- Using list item
+- Recycler viwes
+- Adapter
 - Fragments
 - Kotlin Coroutines
 - Room database
@@ -14,7 +14,7 @@ Nota app build by kotlin and android SDK for android applications
 # Key features:
 - Add notes, update or delete them
 - Search notes
-- 
+  
 # App snapshots 
 ![My Project Screenshot](home.jpg)
 ![My Project Screenshot](add.jpg)
