@@ -15,6 +15,7 @@ import com.example.noteapp.viewmodel.NoteViewModelFactory
 class MainActivity : AppCompatActivity() {
     lateinit var noteViewModel: NoteViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.Base_Theme_NoteApp)
         super.onCreate(savedInstanceState)
         val biding = ActivityMainBinding.inflate(layoutInflater)
         enableEdgeToEdge()
